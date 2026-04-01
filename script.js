@@ -30,17 +30,17 @@ trs.forEach(tr => {
     let pai = status.parentNode
        
     if(status.textContent == 'Abaixo do Peso'){
-        pai.style.backgroundColor = '#F4EFEC'
+        pai.style.backgroundColor = '#eec6c6'
     } else if(status.textContent == 'Peso Normal'){
         pai.style.backgroundColor = 'white'
      } else if(status.textContent == 'Sobrepeso'){
-       pai.style.backgroundColor = 'green'
+       pai.style.backgroundColor = '#edf4d8'
     } else if(status.textContent == 'Obesidade Grau I'){
-        pai.style.backgroundColor = '#FOD9D1'
+        pai.style.backgroundColor = '#cb9c9c'
      }else if(status.textContent == 'Obesidade Grau II'){
-        pai.style.backgroundColor = '#DACOA7'
+        pai.style.backgroundColor = '##6f3939'
      }  else{ 
-        pai.style.backgroundColor = '#CAAA93'
+        pai.style.backgroundColor = '#350a0a'
     }
 })
 
